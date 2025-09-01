@@ -1,0 +1,31 @@
+label, 
+input[type="radio"]
+{
+    display: block;
+}
+
+input[type="text"], 
+input[type="password"], 
+input[type="time"], 
+input[type="date"] 
+{
+    width: 300px;
+
+    margin-bottom: 20px;
+}
+
+form{
+    width: 400px;
+
+    margin: 40px auto;
+
+    padding: 20px;
+
+    border: 2px dashed rgb(255, 109, 134);
+
+    background-color: orange;
+}
+
+label[for="checkbox"]{
+    display: inline;
+}
